@@ -1,0 +1,4 @@
+Primary: #2B3A55
+Secondary: #CE7777
+Accent: #E8C4C4
+Highlight: #F2E5E5

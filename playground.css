@@ -1,0 +1,30 @@
+html {
+    box-sizing: border-box;
+}
+.wrapper {
+    height: 80vh;
+    background-color: rgb(42, 55, 44);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+.box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex: 1 0 auto;
+    width: 150px;
+    height: 150px;
+    /* padding: 20px; */
+    background-color: burlywood;
+    font-size: 2.0rem;
+}
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
