@@ -45,11 +45,17 @@ body {
 .wrapper ul li a {
   color: #F2E5E5;
   text-decoration: none;
+  display: flex;
+  flex-direction: column;
 }
 .wrapper ul li a > img {
   display: block;
   padding: 4px 0;
   width: 40px;
+}
+.wrapper ul li a > i {
+  align-self: flex-end;
+  font-size: 32px;
 }
 .wrapper button {
   padding: 8px 16px;

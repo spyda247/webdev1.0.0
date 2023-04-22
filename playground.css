@@ -1,26 +1,33 @@
 html {
     box-sizing: border-box;
 }
+body {
+     background-color: rgb(42, 55, 44);
+}
 .wrapper {
-    height: 80vh;
-    background-color: rgb(42, 55, 44);
     display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: flex-start ;
+    flex-wrap: nowrap;
     gap: 20px;
+    padding: 20px;
+    
 }
 .box {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    flex: 1 0 auto;
-    width: 150px;
-    height: 150px;
-    /* padding: 20px; */
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
     background-color: burlywood;
     font-size: 2.0rem;
+    font-weight: 800;
 }
+
+.box3 {
+    align-self: flex-end
+}
+
 .center {
     position: absolute;
     left: 50%;
