@@ -1,3 +1,3 @@
 # webdev1.0.0
-#code4adults - Web development training Lesson 1
+#code4adults - Web development training Lesson 2
 
