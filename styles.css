@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /* Variables or mixins */
+  --white: hsl(0, 0%, 100%);
+  --light-blue: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  height: 100vh; 
+  width: 100vw;
+  position: relative;
+  font-size: 15px;
+  font-family: "Outfit", sans-serif;
+  /* background-color: var(--light-blue); */
+}
+
+/* Utility Ruleset - centers any element within a container
+with a position: relative */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Main Styles */
+.wrapper {
+  width: inherit;
+  min-width: 375px;
+  height: inherit;
+  min-height: 600px;
+  background-color: var(--light-blue);
+}
+
+.card {
+  width: 320px;
+  padding: 16px 0;
+  border-radius: 22px;
+  background-color: var(--white);
+}
+
+.qrcode {
+  background-color: var(--white);
+  position: relative;
+}
+
+.qrcode > img {
+  display: block;
+  margin: 0 auto;
+  width: 286px;
+  height: auto;
+  border-radius: 16px;
+}
+
+.content {
+  text-align: center;
+  padding: 24px;
+}
+
+.content h2 {
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.content p {
+  font-size: 15px;
+  padding: 12px;
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
