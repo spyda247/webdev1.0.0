@@ -30,7 +30,31 @@ body {
     flex: 1 0 70%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     padding: 0 20px;
+}
+.box2 .cart {
+    padding: 0 8px;
+    margin: 0 10px;
+    font-size: 25px;
+    position: relative;
+    
+    
+}
+.box2 .cart .qty {
+    font-size: 0.35em;
+    width: 13px;
+    height: 13px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -12px;
+    left: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
 }
 .center {
     position: absolute;
@@ -39,3 +63,42 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+.product-card {
+    width: 250px;
+    max-height: 450px;
+    margin: 20px;
+    padding: 10px;
+    background-color: burlywood;
+}
+
+.product-card .price {
+    font-weight: 700;
+}
+
+.product-card span {
+    padding: 4px 12px;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.product-card span:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
