@@ -32,6 +32,43 @@ body {
     justify-content: flex-end;
     padding: 0 20px;
 }
+.box2 .cart {
+    padding: 0 8px;
+    margin: 0 10px;
+    font-size: 25px;
+    padding: 0 20px;
+    position: relative;
+}
+.box2 .cart .qty {
+    font-size: 0.35em;
+    width: 13px;
+    height: 13px;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: -12px;
+    left: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.box2 .cart-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.box2 .cart-details .total-price {
+    padding: 0;
+    margin: 12px 4px 0 -20px;
+    font-size: 0.5em;
+    font-weight: 700;
+}
+
 .center {
     position: absolute;
     left: 50%;
@@ -39,3 +76,56 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.product-card {
+    width: 200px;
+    max-height: 450px;
+    padding: 10px 10px 20px;
+    margin: 20px;
+    background-color: burlywood;
+}
+.product-card .image > .product {
+    width: 100%;
+    margin: 0 auto;
+}
+.product-card .title {
+    font-size: 0.85em;
+}
+.product-card .description {
+    font-size: 0.75em;
+}
+.product-card .price {
+    font-weight: 700;
+}
+.product-card .product-options {
+    margin: 10px 0;
+}
+.product-card span {
+    padding: 4px 12px;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    border: 1px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.product-card span:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
