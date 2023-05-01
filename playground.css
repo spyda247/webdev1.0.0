@@ -1,5 +1,7 @@
 html {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 body {
      background-color: rgb(42, 55, 44);
@@ -87,17 +89,36 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-.product-card .title {
+.product-card .product-details {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product-card .product-details .title {
     font-size: 0.85em;
 }
-.product-card .description {
-    font-size: 0.75em;
-}
-.product-card .price {
+.product-card .product-details .price {
     font-weight: 700;
 }
+.product-card .description {
+    padding: 0;
+    margin: 0;
+    font-size: 0.75em;
+}
 .product-card .product-options {
+    /* display: flex;
+    gap: 4px; */
+    padding: 0 4px;
     margin: 10px 0;
+}
+.product-card .product-options .product-thumb {
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid burlywood;
+}
+.product-card .product-options .product-thumb:hover {  
+    border: 1px solid white;
 }
 .product-card span {
     padding: 4px 12px;
@@ -112,6 +133,13 @@ body {
     color: white;
 }
 
+/*
+* Utility Styles
+*/
+
+.borderHighlight {
+    border: 1px solid #fff;
+}
 
 
 
