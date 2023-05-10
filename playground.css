@@ -79,7 +79,7 @@ body {
     text-align: center;
 }
 .card {
-    width: 200px;
+    max-width: 210px;
     max-height: 450px;
     padding: 10px 10px 20px;
     margin: 20px;
@@ -135,11 +135,13 @@ body {
     color: white;
 }
 .cart-items {
+    min-width: 200px;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  top: 0;
+  left: 0px;
   opacity: 0;
   transition: all 300ms;
+  overflow: hidden;
 }
 
 .cart-items .table {
@@ -176,7 +178,8 @@ body {
   display: block!important;
   position: absolute;
   top: 100px;
-  right: 0px;
+  left: 148px;
+  right: 0;
   opacity: 1;
 }
 .borderHighlight {
