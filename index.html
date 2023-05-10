@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="playground.css" />
+    <title>Playground</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box box1">
+        <span>logo</span>
+      </div>
+      <div class="box box2">
+        <div class="cart-details">
+          <i class="fa fa-shopping-cart cart" aria-hidden="true">
+            <span class="qty">0</span>
+          </i>
+          <p class="total-price">0.00</p>
+        </div>
+        <span>Welcome</span>
+      </div>
+    </div>
+    <div class="card">
+      <div class="image">
+        <img
+          class="product"
+          src="images/kelly-sikkema-brown-bag-unsplash.jpg"
+          alt="brown bag"
+        />
+      </div>
+      <div class="product-details">
+        <h1 class="title">Galvani bag</h1>
+        <p class="price">24.50</p>
+      </div>
+      <p class="description">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+      <div class="product-options">
+        <img
+          class="product-thumb"
+          src="images/kelly-sikkema-brown-bag-unsplash.jpg"
+          alt="brown bag"
+          width="50px"
+        />
+        <img
+          class="product-thumb"
+          src="images/kelly-sikkema-green-bag-unsplash.jpg"
+          alt="green bag"
+          width="50px"
+        />
+        <img
+          class="product-thumb"
+          src="images/kelly-sikkema-pink-bag-unsplash.jpg"
+          alt="pink bag"
+          width="50px"
+        />
+      </div>
+      <span class="add2cart">Add to cart</span>
+      <span class="show-cart">Show cart</span>
+    </div>
+    <div class="cart-items card">
+      <h3>Your Shopping Cart</h3>
+      <p>You have 1 item in cart</p>
+      <div class="table">
+        <div class="row header">
+          <div class="cell heading">
+            Product
+          </div>
+          <div class="cell heading">
+            Qty
+          </div>
+          <div class="cell heading">
+            Price
+          </div>
+        </div>
+        <div class="row items">
+          <div class="cell item">
+            Galvani bag
+          </div>
+          <div class="cell item">
+            1
+          </div>
+          <div class="cell item">
+            24.50
+          </div>
+        </div>
+      </div>
+      <div class="cart-total">Totai: 24.50</div>
+    </div>
+    <script src="playground.js"></script>
+  </body>
+</html>
