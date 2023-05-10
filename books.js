@@ -1,10 +1,8 @@
 import Books from './data.js'
 
-const temperatures = [28, 35, 34, 29, 32];
+// let average = sum(temperatures) / temperatures.length;
 
-let average = sum(temperatures) / temperatures.length;
-
-console.log(average);
+// console.log(average);
 
 /* Helper function */
 /* function sum(arr) {
@@ -30,6 +28,42 @@ function sum(arr) {
 3. Return the sum of the new array
 
 */
+
+const temperatures = [28, 24, 35, 31, 32];
+
+/* const result = temperatures.map((temp) => temp * 3)
+ */
+/* const minValue = Math.min(...result); //-> 
+
+const filtered = result.filter(temp => temp !== minValue)
+
+const nSum = filtered.reduce((total, temp) => total + temp) */
+
+
+function processTemperatures(arr) {
+  let newarr = arr.map((temp) => temp * 3);
+  const minValue = Math.min(...newarr); 
+  newarr = newarr.filter((temp) => temp !== minValue);
+  newarr = newarr.reduce((total, temp) => total + temp);
+  return newarr;
+}
+
+console.log(processTemperatures([28, 55, 102, 31, 32]));
+console.log(processTemperatures([10, 10, 10, 1, 1]));
+console.log(processTemperatures(temperatures))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
