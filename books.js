@@ -15,12 +15,32 @@ console.log(average);
     return total;
 } */
 
-
 function sum(arr) {
   let total = 0;
   total = arr.reduce((acc, num) => acc + num, 0);
   return total;
 }
+
+/* Write a function that takes an array of temperature values and 
+
+1. Multiples each value by 3 
+
+2. Filers out the lowest temperature
+
+3. Return the sum of the new array
+
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
