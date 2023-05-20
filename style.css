@@ -1,0 +1,93 @@
+html {
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0 20px;
+  background-color: #131316;
+  color: #fff;
+  font-size: 12px;
+}
+.wrapper {
+  
+}
+.wrapper header {
+  height: 80px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(92, 82, 82, 0.4);
+}
+.wrapper header .logo {
+  flex: 1 0 20%;
+  margin: auto auto;
+  cursor: pointer;
+}
+.wrapper header .logo > img {
+  max-width: 40px;
+  filter:grayscale(200%);
+  filter:contrast(0%);
+}
+.wrapper header .logo > img:hover {
+  transform: rotate(360deg);
+  transition: all 2s;
+}
+.wrapper header .navigation {
+  flex: 1 0 70%;
+  margin: auto auto;
+}
+.wrapper header .navigation ul {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+  color: #121212;
+  font-size: 0.95rem;
+  list-style: none;
+  
+}
+.wrapper header .navigation ul li {
+  width: 100%;
+  padding: 8px 16px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1.5px;
+  background-color: transparent;
+  /* border-radius: 2px; */
+  cursor: pointer;
+}
+.wrapper header .navigation ul li:hover {
+  background-color: burlywood;
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  border-radius: 8px;
+  transition: all ease-out 1s;
+}
+.wrapper > h1 {
+  text-transform: uppercase;
+  padding: 20px 0;
+  margin-bottom: -50px;
+}
+
+.book {
+  display: grid;
+  place-items: center;
+  align-content: left;
+  min-height: 80vh;
+  padding: 0 20px;
+  margin: -30px 0 60px;
+}
+.book h2 {
+  padding: 10px 0;
+  text-transform: capitalize;
+  font-size: 1.25rem;
+}
+.book p {
+  font-size: 1rem;
+}
+.book img {
+  max-width: 80px;
+}
